@@ -1,6 +1,7 @@
 # Create file paths across operating systems and reading CSV file
 import os
 import csv
+
 csv_path = os.path.join("C:/Users/17144/Course Work/python-challenge/PyBank/Resources/budget_data.csv")
 csv_path_out = os.path.join("C:/Users/17144/Course Work/python-challenge/Homework-challenge/PyBank-challenge/budget_data.txt")
 month=[]
