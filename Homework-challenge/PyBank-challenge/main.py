@@ -2,8 +2,10 @@
 import os
 import csv
 
-csv_path = os.path.join("C:/Users/17144/Course Work/python-challenge/PyBank/Resources/budget_data.csv")
-csv_path_out = os.path.join("C:/Users/17144/Course Work/python-challenge/Homework-challenge/PyBank-challenge/budget_data.txt")
+csv_path = os.path.join('..','Resources','budget_data.csv')
+csv_path_out = os.path.join('..','PyBank-challenge','budget_data.txt')
+
+#create two lists
 month=[]
 amount=[]
 
@@ -68,6 +70,3 @@ with open(csv_path_out, 'w', newline= '',encoding="UTF-8")as txt_file:
 with open(csv_path_out, newline= '') as f:
     for line in f:
         print(line, end = '')
-
-
-       
